@@ -1,0 +1,42 @@
+.application {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 25px;
+  border: solid 1px black;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+}
+
+.genres {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.genre {
+  background: burlywood;
+  border-radius: 25%;
+  margin: 10px;
+  padding: 10px;
+}
+
+nz-input-group {
+  width: 50%;
+}
+
+app-select {
+  width: 20%;
+}
+
+
+
